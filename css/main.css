@@ -1,0 +1,148 @@
+main {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section {
+    width: 74rem;
+    /* height: 40rem; */
+    padding-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+h1 {
+    font-size: 38pt;
+    line-height: 1;
+}
+
+h1 span {
+    width: 100%;
+    height: 50px;
+    background: #0369a1;
+    color: white;
+    line-height: 1;
+}
+
+.image-container {
+    width: 30rem;
+    height: 30rem;
+    background: #006297;
+    border-radius: 50% 50% 5% 50%; 
+}
+
+.image-container img {
+    border-radius: 50% 50% 5% 50%; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btns-container {
+    display: flex;
+}
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    background-color: #006297;
+    transition: box-shadow 200ms ease-in;
+}
+
+.btn-cases {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 14px;
+}
+
+.btn-cases:hover {
+    gap: 18px;
+}
+
+.left-rounded-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    width: 30rem;
+    height: 30rem;
+    background: #0369a1;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+h2,
+.rounded-content {
+    width: 80%;
+}
+
+.check-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.check-container-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.right-second-container {
+    position: relative;
+}
+
+.right-second-container svg {
+    position: absolute;
+    inset: 0;
+    bottom: 150px;
+    z-index: 1;
+}
+
+.thumbnail {
+    position: absolute;
+    background-image: url(../assets/images/mulher-utilizando-computador.jpg);
+    width: 74rem;
+    height: 30rem;
+    background-size: cover; 
+    border-radius: 30px;
+    top: -100px;
+}
+
+.sectionzada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    width: 100%;
+    height: 50rem;
+    position: relative;
+    background: #006297;
+}

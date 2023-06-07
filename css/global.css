@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: 'Sora', sans-serif;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    display: block;
+}
