@@ -17,8 +17,8 @@
             </div>
             <div>
                 <ul>
-                    <li><a href="#">Sobre Nós</a></li>
-                    <li><a href="#">Planos</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#plans">Planos</a></li>
                     <li><a href="#">Atendimento</a></li>
                     <li><a href="#">FAQ</a></li>
                     <a href="#" class="btn-client"><img src="assets/icons/user-icon.svg" alt=""></i>Área do Cliente</a>
@@ -27,7 +27,7 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section id="home">
             <div class="container"> 
                 <div class="right-container">
                     <h1>Nossas soluções inovadoras impulsionam sua presença na internet oferecendo <span class="text-digit"></span></h1>
@@ -46,7 +46,7 @@
                 </div>
             </div>
         </section>
-        <section id="teste">
+        <section id="about">
             <div class="container">
                 <div>
                     <div class="left-rounded-container">
@@ -79,12 +79,64 @@
             <div class="thumbnail">
             </div>
             <div class="container">
-                <h2>Verifique disponibilidade</h2>
-                <form action="">
-                    <h3>Digite seu CEP</h3>
-                    <input type="" name="#" id="#">
-                </form>
+                <h2>Verifique disponibilidade na Regiao Norte do Tocantins  </h2>
+                <select name="citys" id="">
+                    <option value="1">Selecione sua cidade</option>
+                    <option value="2">Augustinópolis</option>
+                    <option value="3">Araguatins</option>
+                    <option value="4">Praia Norte</option>
+                    <option value="5">Axixa do Tocantins</option>
+                </select>
             </div>
+        </section>
+        <section class="plans-section" id="plans">
+            <div class="container">
+                <div>
+                    <h2>Conheça nossos Planos</h2>
+                    <p>Escolha um dos nossos planos e contrate nossos serviços.</p>
+                </div>
+                <div class="card-container">
+                    <div class="card-prince">
+                        <h3>Light</h3>
+                        <ul>
+                            <li><i class="ph ph-gear"></i> Instalação Inclusa</li>
+                            <li><i class="ph ph-wrench"></i> Suporte 24hr</li>
+                            <li><i class="ph ph-lighthouse"></i> 100% Fibra óptica</li>
+                            <li> <i class="ph ph-download"></i> Download 100 Mbps</li>
+                            <li> <i class="ph ph-upload"></i> Upload 100 Mbps</li>
+                        </ul>
+                        <h2>R$ 79,99 <span>/mês</span></h2>
+                        <button>Assine Já</button>
+                    </div>
+                    <div class="card-prince premium-card">
+                        <h3>Premium</h3>
+                        <ul>
+                            <li><i class="ph ph-gear"></i> Instalação Inclusa</li>
+                            <li><i class="ph ph-wrench"></i> Suporte 24hr</li>
+                            <li><i class="ph ph-lighthouse"></i> 100% Fibra óptica</li>
+                            <li> <i class="ph ph-download"></i> Download 500 Mbps</li>
+                            <li> <i class="ph ph-upload"></i> Upload 500 Mbps</li>
+                            <li> <i class="ph ph-devices"></i></i> Apps inclusos</li>
+                        </ul>
+                        <h2>R$ 119,99 <span>/mês</span></h2>
+                        <button>Assine Já</button>
+                    </div>
+                    <div class="card-prince">
+                        <h3>Medium</h3>
+                        <ul>
+                            <li><i class="ph ph-gear"></i> Instalação Inclusa</li>
+                            <li><i class="ph ph-wrench"></i> Suporte 24hr</li>
+                            <li><i class="ph ph-lighthouse"></i> 100% Fibra óptica</li>
+                            <li> <i class="ph ph-download"></i> Download 250 Mbps</li>
+                            <li> <i class="ph ph-upload"></i> Upload 250 Mbps</li>
+                        </ul>
+                        <h2>R$ 99,99 <span>/mês</span></h2>
+                        <button>Assine Já</button>
+                    </div>
+                </div>
+            </div>
+
+
         </section>
     </main>
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>

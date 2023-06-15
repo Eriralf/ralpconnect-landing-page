@@ -9,8 +9,8 @@ main {
 
 section {
     width: 74rem;
-    /* height: 40rem; */
-    padding-top: 10rem;
+    height: 100vh;
+    /* padding-top: 10rem; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,7 +94,7 @@ h2 {
     font-size: 24pt;
 }
 
-h2,
+.left-rounded-container h2,
 .rounded-content {
     width: 80%;
 }
@@ -128,8 +128,8 @@ h2,
 .thumbnail {
     position: absolute;
     background-image: url(../assets/images/mulher-utilizando-computador.jpg);
-    width: 74rem;
-    height: 30rem;
+    width: 50rem;
+    height: 15rem;
     background-size: cover; 
     border-radius: 30px;
     top: -100px;
@@ -142,7 +142,38 @@ h2,
     justify-content: center;
     margin-top: 200px;
     width: 100%;
-    height: 50rem;
+    height: 30rem;
     position: relative;
     background: #006297;
+}
+
+.sectionzada .container {
+    top: 120px;
+}
+
+select {
+    padding: 5px 10px;
+    width: 19rem;
+    height: 3rem;
+    border-radius: 8px;
+    font-size: 14pt;
+}
+
+.sectionzada .container {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.sectionzada .container h2 {
+    width: 65%;
+    color: white;
+    text-align: center;
+}
+
+.plans-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.6rem;
 }

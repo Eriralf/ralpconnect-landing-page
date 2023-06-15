@@ -1,0 +1,66 @@
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.card-prince {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #006297;
+    border-radius: 1.2em;
+    width: 22rem;
+    height: 24rem;
+}
+
+.card-prince span {
+    font-size: 12pt;
+}
+
+.card-prince i {
+    color: #006297;
+    font-size: 14pt;
+}
+
+.card-prince button {
+    background-color: #006297;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #006297;
+    border-radius: .6rem;
+    padding: 1.2rem 2rem;
+}
+
+.premium-card {
+    height: 26rem;
+    position: relative;
+    color: white;
+    background-color: #006297;
+}
+
+.premium-card i {
+    color: black;
+}
+
+.premium-card button {
+    color: #006297;
+    background: white;
+}
+
+.premium-card::before {
+    content: 'Promoção';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 10rem;
+    height: 2.2rem;
+    border-radius: 0.6rem;
+    background: black;
+    top: -15px;
+}
