@@ -159,6 +159,44 @@ select {
     font-size: 14pt;
 }
 
+.select-info-green {
+    background: #bbf7d0;
+    color: #14532d;
+    border-radius: 0.6rem;
+    padding: 0.4rem;
+}
+
+.select-info-green::before {
+    content: '';
+    display: inline-flex;
+    margin-right: 0.8rem;
+    border-radius: 50%;
+    padding: 1px;
+    width: 0.6rem;
+    height: 0.6rem;
+    background: #14532d;
+}
+
+.select-info-red {
+    background: #fecaca;
+    color: #7f1d1d;
+    border-radius: 0.6rem;
+    padding: 0.4rem;
+}
+
+.select-info-red::before {
+    content: '';
+    display: inline-flex;
+    margin-right: 0.8rem;
+    border-radius: 50%;
+    padding: 1px;
+    width: 0.6rem;
+    height: 0.6rem;
+    background: #7f1d1d;
+}
+
+
+
 .sectionzada .container {
     padding-top: 120px;
     display: flex;
@@ -176,4 +214,59 @@ select {
     display: flex;
     flex-direction: column;
     gap: 2.6rem;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-section {
+    width: 100vw;
+    background: #006297;
+    color: white;
+}
+
+
+.faq-section .container {
+    display: flex;
+/*     justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+}
+
+details{
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    gap: 1.2rem;
+    width: 50rem;
+    /* background: #e4e4e7; */
+    /* border-radius: 1rem; */
+    border-bottom: 2px solid gray;
+}
+
+details p {
+    margin-top: 1.2rem;
+    color: #374151;
+}
+
+summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+summary svg {
+    width: 1.4rem;
+    transition: 400ms transform ease-in-out;
+}
+
+details[open] summary svg{
+    transform: rotate(-180deg);
+}
+
+details[open] summary h4{
+    color: #006297;
 }
