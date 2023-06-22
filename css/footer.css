@@ -1,0 +1,48 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 25rem;
+    background: #292929;
+}
+
+footer .container {
+    width: 74rem;
+    color: white;
+}
+
+.top-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+    padding-bottom: 2.4rem;
+}
+
+.socials-container-footer {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.4rem;
+}
+
+.top-footer .socials-container-footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    background: #37415140;
+    border-radius: 50%;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+.bottom-footer {
+    margin-top: 1.2rem;
+    text-align: center;
+    font-size: 10pt;
+}

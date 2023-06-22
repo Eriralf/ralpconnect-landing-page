@@ -22,7 +22,10 @@ selectsCitys.addEventListener("change", () => {
         selectInfo.textContent = "";
         selectInfo.classList.remove("select-info-green");
         selectInfo.classList.remove("select-info-red");
-    } else if (selectsCitys.value === "Praia Norte" || selectsCitys.value === "Buriti do Tocantins") {
+    } else if (
+        selectsCitys.value === "Praia Norte" ||
+        selectsCitys.value === "Buriti do Tocantins"
+    ) {
         selectInfo.innerHTML = `A cidade de <strong>${selectsCitys.value}</strong> não tem disponibilidade ainda!`;
         selectInfo.classList.add("select-info-red");
         selectInfo.classList.remove("select-info-green");
@@ -33,3 +36,18 @@ selectsCitys.addEventListener("change", () => {
         selectInfo.classList.remove("select-info-red");
     }
 });
+
+const details = document.querySelectorAll(".details-faq");
+
+details.forEach((element) => {
+  element.addEventListener("click", (event) => {
+    const clickedElement = event.target;
+    
+    details.forEach((detail) => {
+      if (detail !== clickedElement && detail.open) {
+        detail.removeAttribute("open");
+      }
+    });
+  });
+});
+
